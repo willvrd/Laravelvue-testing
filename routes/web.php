@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/vue', 'VueController@index')->name('vue');
+
+Route::resource('/notas', 'NotaController')->middleware('auth');
