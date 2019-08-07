@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-       <h2>Componente tareas</h2>
+       <h2>Componente notas</h2>
     </div>
 </template>
 

@@ -8,14 +8,7 @@
                 <div class="card-header">Administrar Notas</div>
 
                 <div class="card-body">
-                    <tareas />
-                    {{--
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-                    --}}
+                    <notas />
 
 
                 </div>
